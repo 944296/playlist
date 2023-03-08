@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border: 5px solid #00C6AD;
+  width: 50vw;
+  height: 100vh;
+}
+#status-bar {
+  font-weight: 700;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  margin: 40px 0px;
+}
+.status-bar_text {
+  width: 33%;
+}
+.status-bar_text:nth-child(2){
+  display: flex;
+  justify-content: center;
+}
+.status-bar_text:first-child {
+  padding-left: 30px;
+}
+#title-song {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 20px;
+}
+#title-song_img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
+  border: 2px solid black;
+  background-color: #FFBD11;
+}
+#title-song_img i {
+  color: white;
+}
+.title-song_text {
+  margin: 5px 10px;
+  font-size: 30px;
+  font-weight: 900;
+}
+.title-song_text:last-child {
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+#btns {
+  margin: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.btn{
+  border: 2px solid black;
+  border-radius: 20%;
+  box-shadow: 0px 3px black;
+}
+.btn_play{
+  width: 80px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn_heart,
+.btn_plus{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box{
+  display: flex;
+}
+.basic-box{
+  width: 50px;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 10%;
+}
+.basic-box {
+  background-color: #F85A2A;
+}
+.boxs .basic-box:nth-child(2) {
+  background-color: #FF89BB;
+}
+.basic-box:nth-child(3) {
+  background-color: #1947E5;
+}
+.basic-box:last-child {
+  background-color: #00C6AD;
+}
